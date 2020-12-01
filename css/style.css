@@ -2119,3 +2119,14 @@ ul.location_icon span {
      align-items: center;
      justify-content: space-around;
 }
+
+@media screen and (max-width: 600px) {
+     #contact-menu {
+       display: none;
+     }
+   }
+@media screen and (max-width: 600px) {
+     #contact-menu-mobile {
+       display: block;
+     }
+}
